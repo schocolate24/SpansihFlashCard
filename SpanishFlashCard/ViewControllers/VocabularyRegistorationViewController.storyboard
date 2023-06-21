@@ -20,11 +20,13 @@
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="単語" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="881-RQ-Qze">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="34"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="意味" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DrA-Ye-xEP">
                                         <rect key="frame" x="0.0" y="84" width="250" height="34"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -42,14 +44,10 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="fM5-gg-XBN" secondAttribute="trailing" constant="71.329999999999998" id="1uU-XH-7aH"/>
                             <constraint firstItem="HRr-TS-V0F" firstAttribute="top" secondItem="fM5-gg-XBN" secondAttribute="bottom" constant="40" id="HJ7-Ua-aD9"/>
                             <constraint firstItem="HRr-TS-V0F" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="KYa-KJ-Owe"/>
-                            <constraint firstItem="fM5-gg-XBN" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="71.670000000000002" id="O0e-SV-iBa"/>
                             <constraint firstItem="fM5-gg-XBN" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="150" id="ieO-Fk-aZC"/>
                             <constraint firstItem="fM5-gg-XBN" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="mOB-fg-jwx"/>
-                            <constraint firstItem="HRr-TS-V0F" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="167.33000000000001" id="ue8-ZO-D2Y"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="HRr-TS-V0F" secondAttribute="trailing" constant="167" id="vjz-UV-bWs"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7NV-Ww-4UK"/>
