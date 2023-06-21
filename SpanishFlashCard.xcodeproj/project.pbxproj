@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		04C5D1E42A428C9A0029C326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5D1E32A428C9A0029C326 /* AppDelegate.swift */; };
 		04C5D1E62A428C9A0029C326 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5D1E52A428C9A0029C326 /* SceneDelegate.swift */; };
-		04C5D1E82A428C9A0029C326 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5D1E72A428C9A0029C326 /* ViewController.swift */; };
+		04C5D1E82A428C9A0029C326 /* VocabularyRegistorationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5D1E72A428C9A0029C326 /* VocabularyRegistorationViewController.swift */; };
 		04C5D1EB2A428C9A0029C326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C5D1E92A428C9A0029C326 /* Main.storyboard */; };
 		04C5D1ED2A428C9B0029C326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C5D1EC2A428C9B0029C326 /* Assets.xcassets */; };
 		04C5D1F02A428C9B0029C326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C5D1EE2A428C9B0029C326 /* LaunchScreen.storyboard */; };
+		04C5D1F92A4296740029C326 /* VocabularyRegistorationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C5D1F82A4296740029C326 /* VocabularyRegistorationViewController.storyboard */; };
+		04C5D1FB2A4296CB0029C326 /* VocabularyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5D1FA2A4296CB0029C326 /* VocabularyTableViewController.swift */; };
+		04C5D1FD2A4296D80029C326 /* VocabularyTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C5D1FC2A4296D70029C326 /* VocabularyTableViewController.storyboard */; };
+		04C5D1FF2A4296EE0029C326 /* FlashCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5D1FE2A4296EE0029C326 /* FlashCardViewController.swift */; };
+		04C5D2012A4296FB0029C326 /* FlashCardViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C5D2002A4296FB0029C326 /* FlashCardViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04C5D1E02A428C9A0029C326 /* SpanishFlashCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpanishFlashCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C5D1E32A428C9A0029C326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C5D1E52A428C9A0029C326 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04C5D1E72A428C9A0029C326 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04C5D1E72A428C9A0029C326 /* VocabularyRegistorationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyRegistorationViewController.swift; sourceTree = "<group>"; };
 		04C5D1EA2A428C9A0029C326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04C5D1EC2A428C9B0029C326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C5D1EF2A428C9B0029C326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C5D1F12A428C9B0029C326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C5D1F82A4296740029C326 /* VocabularyRegistorationViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VocabularyRegistorationViewController.storyboard; sourceTree = "<group>"; };
+		04C5D1FA2A4296CB0029C326 /* VocabularyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyTableViewController.swift; sourceTree = "<group>"; };
+		04C5D1FC2A4296D70029C326 /* VocabularyTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VocabularyTableViewController.storyboard; sourceTree = "<group>"; };
+		04C5D1FE2A4296EE0029C326 /* FlashCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardViewController.swift; sourceTree = "<group>"; };
+		04C5D2002A4296FB0029C326 /* FlashCardViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FlashCardViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +68,26 @@
 			children = (
 				04C5D1E32A428C9A0029C326 /* AppDelegate.swift */,
 				04C5D1E52A428C9A0029C326 /* SceneDelegate.swift */,
-				04C5D1E72A428C9A0029C326 /* ViewController.swift */,
+				04C5D1F72A4296390029C326 /* ViewControllers */,
 				04C5D1E92A428C9A0029C326 /* Main.storyboard */,
 				04C5D1EC2A428C9B0029C326 /* Assets.xcassets */,
 				04C5D1EE2A428C9B0029C326 /* LaunchScreen.storyboard */,
 				04C5D1F12A428C9B0029C326 /* Info.plist */,
 			);
 			path = SpanishFlashCard;
+			sourceTree = "<group>";
+		};
+		04C5D1F72A4296390029C326 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04C5D1E72A428C9A0029C326 /* VocabularyRegistorationViewController.swift */,
+				04C5D1F82A4296740029C326 /* VocabularyRegistorationViewController.storyboard */,
+				04C5D1FE2A4296EE0029C326 /* FlashCardViewController.swift */,
+				04C5D2002A4296FB0029C326 /* FlashCardViewController.storyboard */,
+				04C5D1FA2A4296CB0029C326 /* VocabularyTableViewController.swift */,
+				04C5D1FC2A4296D70029C326 /* VocabularyTableViewController.storyboard */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +148,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C5D1F92A4296740029C326 /* VocabularyRegistorationViewController.storyboard in Resources */,
 				04C5D1F02A428C9B0029C326 /* LaunchScreen.storyboard in Resources */,
 				04C5D1ED2A428C9B0029C326 /* Assets.xcassets in Resources */,
 				04C5D1EB2A428C9A0029C326 /* Main.storyboard in Resources */,
+				04C5D2012A4296FB0029C326 /* FlashCardViewController.storyboard in Resources */,
+				04C5D1FD2A4296D80029C326 /* VocabularyTableViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C5D1E82A428C9A0029C326 /* ViewController.swift in Sources */,
+				04C5D1E82A428C9A0029C326 /* VocabularyRegistorationViewController.swift in Sources */,
+				04C5D1FB2A4296CB0029C326 /* VocabularyTableViewController.swift in Sources */,
 				04C5D1E42A428C9A0029C326 /* AppDelegate.swift in Sources */,
 				04C5D1E62A428C9A0029C326 /* SceneDelegate.swift in Sources */,
+				04C5D1FF2A4296EE0029C326 /* FlashCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
